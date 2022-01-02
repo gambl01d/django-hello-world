@@ -7,7 +7,7 @@ import django_heroku
 
 DEBUG = False
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', SECRET_KEY)
-ALLOWED_HOSTS = ['django-hello-world-app.herokuapp.com']
+ALLOWED_HOSTS = ['phil-dan.herokuapp.com']
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
